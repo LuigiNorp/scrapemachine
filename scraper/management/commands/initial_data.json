@@ -1,0 +1,10 @@
+[
+    {
+        "model": "scraper.website",
+        "pk": 1,
+        "fields": {
+            "site_name": "CBC World Wide",
+            "url": "https://www.cbcworldwide.com/search/lease?product_types[]=industrial&market=lease&geo_ne_lat=59.25977355343603&geo_ne_lng=-54.309814437499995&geo_sw_lat=7.78623999371225&geo_sw_lng=-142.6398925625&map_center_lat=37.8133632868783&map_center_lng=-98.4748535&map_zoom=4"
+        }
+    }
+]
