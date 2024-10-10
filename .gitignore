@@ -5,6 +5,7 @@ scraper/__pycache__
 scraper/migrations/0*
 progress/__pycache__
 progress/migrations/0*
+/scraper/selenium/resources/edgedriver_linux64/Driver_Notes/
 
 *.log
 *.pot
