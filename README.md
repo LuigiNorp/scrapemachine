@@ -157,4 +157,4 @@ http://127.0.0.1:8000/
 ```
 4. Intoduce your credentials to access the Django Admin interface:
 5. Extract data
-![](https://github.com/LuigiNorp/scrapemachine/how_to_extract.gif)
+![]([https://github.com/LuigiNorp/scrapemachine/how_to_extract.gif](https://github.com/LuigiNorp/scrapemachine/blob/main/readme_media/how_to_extract.gif))
