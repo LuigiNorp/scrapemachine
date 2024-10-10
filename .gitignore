@@ -6,6 +6,7 @@ scraper/migrations/0*
 progress/__pycache__
 progress/migrations/0*
 /scraper/selenium/resources/edgedriver_linux64/Driver_Notes/
+/scraper/selenium/bin/google-chrome-stable_current_amd64.deb
 
 *.log
 *.pot
@@ -380,4 +381,5 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
 
