@@ -3,8 +3,8 @@ from django.apps import apps
 
 
 class Website(models.Model):
-    site_name = models.CharField(max_length=100)
-    url = models.URLField()
+    site_name = models.CharField(max_length=300)
+    url = models.URLField(max_length=500)
 
     def __str__(self):
         return self.site_name
@@ -19,7 +19,7 @@ class Property(models.Model):
     property_name = models.CharField(max_length=100, verbose_name='Nombre')
     property_price = models.CharField(max_length=100, verbose_name='Precio')
     property_address = models.CharField(max_length=200, verbose_name='Dirección')
-    property_url = models.URLField(verbose_name='URL Detalle')
+    property_url = models.URLField(max_length=500, verbose_name='URL Detalle')
 
     def website_name(self):
         return self.post.website.site_name

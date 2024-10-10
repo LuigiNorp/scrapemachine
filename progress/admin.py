@@ -4,6 +4,6 @@ from progress.models import Posts
 
 # Register your models here.
 @admin.register(Posts)
-class Posts(admin.ModelAdmin):
-    list_display = ('website_page', 'post_title')
+class PostsAdmin(admin.ModelAdmin):
+    list_display = ('post_title', 'website', 'date')
     list_display_links = ('post_title',)
